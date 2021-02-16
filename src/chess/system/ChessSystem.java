@@ -5,8 +5,6 @@
  */
 package chess.system;
 
-import boardgame.Position;
-
 /**
  *
  * @author Cesar
@@ -18,7 +16,7 @@ public class ChessSystem {
      */
     public static void main(String[] args) {
        
-       
+      
         // TODO code application logic here
     }
     
