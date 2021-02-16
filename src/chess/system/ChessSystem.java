@@ -5,6 +5,8 @@
  */
 package chess.system;
 
+import chess.ChessMatch;
+
 /**
  *
  * @author Cesar
@@ -16,7 +18,8 @@ public class ChessSystem {
      */
     public static void main(String[] args) {
        
-      
+      ChessMatch chessMatch = new ChessMatch();
+      UI.printBoard(chessMatch.getPieces());
         // TODO code application logic here
     }
     
